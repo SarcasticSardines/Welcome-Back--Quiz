@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Welcome Back! Quiz</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="stylesheet" href="./CSS/wickedcss.min.css">
+  </head>
+  <body class="bg-secondary">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1>Bootstrap Quiz</h1>
+          <h2>Objectives</h2>
+          <ol>
+            <li>Center the Bootstrap Quiz Header</li>
+            <li>Change the background color to Slate Gray</li>
+            <li>
+              Create a new row and create 3 column 4s with a card in each column
+              and make the cards evenly spaced
+            </li>
+            <li>Add a different image to each card and add lorem ipsum to each card</li>
+            <li>
+              Create a paragraph of lorem ipsum and change the font to a Google
+              Font of your liking
+            </li>
+            <li>Add a button and use WickedCss to make the button spin</li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- Code goes here -->
+      <div class="row">
+        <div class="col-4 d-flex justify-content-end">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/moonAboveclouds.jpg" class="card-img-top" alt="photo of a pinkish-hued moon over the clouds" style="height: 200px; object-fit: cover; object-position: 0 30%;">
+            <div class="card-body">
+              <h5 class="card-title">Card One</h5>
+              <p class="card-text customCardtxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet volutpat metus, vulputate feugiat nulla. Ut sit amet ipsum interdum, molestie ipsum id, elementum tortor. Ut dapibus finibus nisl, et blandit leo dictum ac. Aliquam quam magna, porta et laoreet vitae, vulputate quis tellus. Donec ut est nec augue consequat pellentesque a sed diam. Curabitur pulvinar quam eget massa dictum fringilla. Sed et lectus in odio ultricies venenatis. Integer tristique varius pretium. Phasellus tincidunt egestas turpis, sed blandit mi pretium id.</p>
+              <a href="#" class="btn btn-primary spinner">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 d-flex justify-content-center">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/forestunsplash.jpg" class="card-img-top" alt="photo of a misty forest" style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Card Two</h5>
+              <p class="card-text customCardtxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sagittis justo a consequat placerat. Mauris eget dui ut mi hendrerit lobortis eget sit amet nulla. Donec nec neque dolor. Mauris a metus venenatis, dignissim nisi non, porttitor lacus. Donec eu consectetur purus. Sed magna sapien, dictum at feugiat sed, dignissim et lectus. Mauris eu semper erat. Proin egestas velit risus, sed ornare orci tempor at. Donec nec sollicitudin erat, eget tempor est. Nunc molestie, nibh non vestibulum ultrices, turpis neque vulputate ipsum, dignissim consectetur est eros eget diam.</p>
+              <a href="#" class="btn btn-primary spinner">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 d-flex justify-content-start">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/lanternunsplash.jpg" class="card-img-top" alt="photo of a lantern on a bench with some fallen leaves" style="height: 200px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">Card Three</h5>
+              <p class="card-text customCardtxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam bibendum velit at odio bibendum imperdiet. Maecenas urna mi, aliquet vel mauris tempor, finibus semper odio. Nunc quam ante, vulputate iaculis consectetur sed, vulputate at eros. Maecenas condimentum mollis sodales. Phasellus elementum odio mi. Integer fermentum lectus non massa varius, nec auctor eros posuere. Integer turpis nulla, posuere ac accumsan non, interdum eget tellus. Pellentesque vulputate sem tellus, in tempor mi ullamcorper sit amet. Praesent ac faucibus sapien, sit amet suscipit urna.</p>
+              <a href="#" class="btn btn-primary spinner">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

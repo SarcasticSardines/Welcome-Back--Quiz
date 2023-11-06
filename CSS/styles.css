@@ -1,0 +1,7 @@
+@font-face {
+    font-family: CherryBomb;
+    src: url(../assets/CherryBombOne-Regular.ttf);
+}
+.customCardtxt {
+    font-family: CherryBomb;
+}
